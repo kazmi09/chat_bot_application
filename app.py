@@ -92,7 +92,8 @@ async def get_response(query_request: QueryRequest):
         )
 
         response = chat_gpt(query_request.query,system_prompt)
-        return response
+        return {"response": response}
+
    except Exception as ex:
         return ex
 
