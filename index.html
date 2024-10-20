@@ -88,7 +88,7 @@
                 }
 
                 const data = await res.json();
-                responseDiv.innerHTML = data.map(result => `<p><strong>Snippet:</strong> ${result.snippet}<br><strong>Score:</strong> ${result.score}</p>`).join('');
+                responseDiv.innerHTML = `<p><strong>Chatbot Response:</strong> ${data.response}</p>`;
             } catch (error) {
                 responseDiv.innerHTML = `Error: ${error.message}`;
             }
