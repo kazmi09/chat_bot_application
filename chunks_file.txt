@@ -1,0 +1,66 @@
+[
+    {
+        "info_id": 1,
+        "chunk": "total participants in dataset 1 1009 total participants percentage in dataset 1 100%"
+    },
+    {
+        "info_id": 2,
+        "chunk": "total male_participants 477 total_male_participants_percentage 47% total_female_participants 532 total_female_participants_percent 53%"
+    },
+    {
+        "info_id": 3,
+        "chunk": "region_north_east_total_participants 45 region_north_east_total_participants_percentage 4% region_north_east_male_participants 22 region_north_east_male_participants_percent 5% region_north_east_female_participants 23 region_north_east_female_participants_percent 4% region_north_west_total_participants 114 region_north_west_total_participants_percentage 11% region_north_west_male_participants 54 region_north_west_male_participants_percentage 11% region_north_west_female_participants 60 region_north_west_female_participants_percentage 11%"
+    },
+    {
+        "info_id": 4,
+        "chunk": "male age group 18-24: 59 male age group 25-34: 97 male age group 35-44: 132 male age group 45-54:104 male age group 55-64 :85"
+    },
+    {
+        "info_id": 5,
+        "chunk": "female age group 18-24: 14% female age group 25-34: 114 female age group 35-44: 146 female age group 45-54 113 female age group 55-64 :84"
+    },
+    {
+        "info_id": 6,
+        "chunk": ":Question 1 Question 1 - Please rank the importance of the following issues facing the UK today. From 1 being the most important to 10 being of lesser importance. Please drag and drop the options into place from 1 to 10.  total_participants_question1  1009 male_participants_question1: 477 female_participants_question1: 532"
+    },
+    {
+        "info_id": 7,
+        "chunk": ":Question 1 Question 1 - Please rank the importance of the following issues facing the UK today. From 1 being the most important to 10 being of lesser importance. Please drag and drop the options into place from 1 to 10.  crime_total_participants: 5.06 crime_male_participants: 5.21 crime_female_participants: 4.92 crime_north_east: 4.76 crime_north_west: 4.61 crime_yorkshire_the_humber:5.59 crime_east_Midlands: 5.51 crime_west_midlands: 5.40 crime_east_of_england: 5.07 crime_london: 5.61 crime_south_east:4.55 crime_south_west:4.72 crime_wales: 4.95 crime_scotland: 4.97 crime_northern_ireland: 4.81 crime_age_18_24: 5.46 crime_age_25_34:4.60 crime_age_35_44:4.90 crime_age_45_54:5.35 crime_age_55_64:5.19"
+    },
+    {
+        "info_id": 8,
+        "chunk": ":Question 1 Question 1 - Please rank the importance of the following issues facing the UK today. From 1 being the most important to 10 being of lesser importance. Please drag and drop the options into place from 1 to 10.  cost_of_living_total_participants: 7.99 cost_of_living_male_participants: 7.66 cost_of_living_female_participants: 8.27 cost_of_living_north_east: 8.56 cost_of_living_north_west: 7.86 cost_of_living_yorkshire_the_humber:8.00 cost_of_living_east_Midlands: 7.46 cost_of_living_west_midlands: 8.16 cost_of_living_east_of_england: 8.23 cost_of_living_london: 7.75 cost_of_living_south_east:7.70 cost_of_living_south_west:8.04 cost_of_living_wales: 7.95 cost_of_living_scotland: 8.58 cost_of_living_northern_ireland: 8.19 cost_of_living_age_18_24: 7.18 cost_of_living_age_25_34:7.82 cost_of_living_age_35_44:8.00 cost_of_living_age_45_54:8.38 cost_of_living_age_55_64:8.30"
+    },
+    {
+        "info_id": 9,
+        "chunk": ":Question 1 Question 1 - Please rank the importance of the following issues facing the UK today. From 1 being the most important to 10 being of lesser importance. Please drag and drop the options into place from 1 to 10.  education_total_participants: 4.83 education_male_participants: 4.95 education_female_participants: 4.72 education_north_east: 4.89 education_north_west: 5.01 education_yorkshire_the_humber:4.76 education_east_Midlands: 4.69 education_west_midlands: 4.84 education_east_of_england: 4.58 education_london: 5.14 education_south_east:4.88 education_south_west:4.60 education_wales: 4.71 education_scotland: 4.64 education_northern_ireland: 5.19 education_age_18_24: 5.27 education_age_25_34:4.85 education_age_35_44:4.99 education_age_45_54:4.68 education_age_55_64:4.39"
+    },
+    {
+        "info_id": 10,
+        "chunk": ":Question 1 Question 1 - Please rank the importance of the following issues facing the UK today. From 1 being the most important to 10 being of lesser importance. Please drag and drop the options into place from 1 to 10.  housing_total_participants: 5.34 housing_male_participants: 5.49 housing_female_participants: 5.20 housing_north_east: 4.93 housing_north_west: 5.94 housing_yorkshire_the_humber:5.15 housing_east_Midlands: 4.96 housing_west_midlands: 5.30 housing_east_of_england: 5.09 housing_london: 5.80 housing_south_east:5.10 housing_south_west:5.59 housing_wales: 5.27 housing_scotland: 5.33 housing_northern_ireland: 4.71 housing_age_18_24: 5.83 housing_age_25_34:5.66 housing_age_35_44:5.40 housing_age_45_54:5.10 housing_age_55_64:4.77"
+    },
+    {
+        "info_id": 11,
+        "chunk": ":Question 1 Question 1 - Please rank the importance of the following issues facing the UK today. From 1 being the most important to 10 being of lesser importance. Please drag and drop the options into place from 1 to 10.  international_conflict_total_participants: 4.38 international_conflict_male_participants: 4.43 international_conflict_female_participants: 4.33 international_conflict_north_east: 3.64 international_conflict_north_west: 4.29 international_conflict_yorkshire_the_humber:4.41 international_conflict_east_Midlands: 4.73 international_conflict_west_midlands: 4.36 international_conflict_east_of_england: 4.35 international_conflict_london: 4.59 international_conflict_south_east:4.41 international_conflict_south_west:4.62 international_conflict_wales: 4.59 international_conflict_scotland: 3.68 international_conflict_northern_ireland: 4.74 international_conflict_age_18_24: 4.60 international_conflict_age_25_34:4.41 international_conflict_age_35_44:4.27 international_conflict_age_45_54:4.20 international_conflict_age_55_64:4.59"
+    },
+    {
+        "info_id": 12,
+        "chunk": ":Question 1 Question 1 - Please rank the importance of the following issues facing the UK today. From 1 being the most important to 10 being of lesser importance. Please drag and drop the options into place from 1 to 10.  mortgage_interest_rates_total_participants: 4.67 mortgage_interest_rates_male_participants: 4.74 mortgage_interest_rates_female_participants: 4.60 mortgage_interest_rates_north_east: 4.58 mortgage_interest_rates_north_west: 5.16 mortgage_interest_rates_yorkshire_the_humber:4.62 mortgage_interest_rates_east_Midlands: 4.87 mortgage_interest_rates_west_midlands: 4.92 mortgage_interest_rates_east_of_england: 4.84 mortgage_interest_rates_london: 4.32 mortgage_interest_rates_south_east:4.58 mortgage_interest_rates_south_west:4.42 mortgage_interest_rates_wales: 4.05 mortgage_interest_rates_scotland: 4.84 mortgage_interest_rates_northern_ireland: 4.16 mortgage_interest_rates_age_18_24: 4.65 mortgage_interest_rates_age_25_34:5.21 mortgage_interest_rates_age_35_44:4.86 mortgage_interest_rates_age_45_54:4.22 mortgage_interest_rates_age_55_64:4.27"
+    },
+    {
+        "info_id": 13,
+        "chunk": ":Question 1 Question 1 - Please rank the importance of the following issues facing the UK today. From 1 being the most important to 10 being of lesser importance. Please drag and drop the options into place from 1 to 10.  the_economy_total_participants: 6.61 the_economy_male_participants: 6.64 the_economy_female_participants: 6.59 the_economy_north_east: 7.18 the_economy_north_west: 6.49 the_economy_yorkshire_the_humber:6.61 the_economy_east_Midlands: 6.32 the_economy_west_midlands: 6.63 the_economy_east_of_england: 6.65 the_economy_london: 6.69 the_economy_south_east:6.83 the_economy_south_west:6.47 the_economy_wales: 6.24 the_economy_scotland: 6.72 the_economy_northern_ireland: 6.26 the_economy_age_18_24: 5.60 the_economy_age_25_34:6.51 the_economy_age_35_44:6.51 the_economy_age_45_54:6.83 the_economy_age_55_64:7.44"
+    },
+    {
+        "info_id": 14,
+        "chunk": ":Question 1 Question 1 - Please rank the importance of the following issues facing the UK today. From 1 being the most important to 10 being of lesser importance. Please drag and drop the options into place from 1 to 10.  the_environment_and_climate_change_total_participants: 4.72 the_environment_and_climate_change_male_participants: 4.73 the_environment_and_climate_change_female_participants: 4.71 the_environment_and_climate_change_north_east: 4.78 the_environment_and_climate_change_north_west: 4.57 the_environment_and_climate_change_yorkshire_the_humber:4.03 the_environment_and_climate_change_east_Midlands: 5.12 the_environment_and_climate_change_west_midlands: 4.73 the_environment_and_climate_change_east_of_england: 4.43 the_environment_and_climate_change_london: 4.33 the_environment_and_climate_change_south_east:5.23 the_environment_and_climate_change_south_west:5.17 the_environment_and_climate_change_wales: 5.59 the_environment_and_climate_change_scotland: 4.28 the_environment_and_climate_change_northern_ireland: 4.81 the_environment_and_climate_change_age_18_24: 4.69 the_environment_and_climate_change_age_25_34:4.80 the_environment_and_climate_change_age_35_44:4.47 the_environment_and_climate_change_age_45_54:4.88 the_environment_and_climate_change_age_55_64:4.85"
+    },
+    {
+        "info_id": 15,
+        "chunk": ":Question 1 Question 1 - Please rank the importance of the following issues facing the UK today. From 1 being the most important to 10 being of lesser importance. Please drag and drop the options into place from 1 to 10.  the_nhs_total_participants: 6.67 the_nhs_male_participants: 6.28 the_nhs_female_participants: 7.02 the_nhs_north_east: 6.53 the_nhs_north_west: 6.43 the_nhs_yorkshire_the_humber:6.52 the_nhs_east_Midlands: 6.63 the_nhs_west_midlands: 6.37 the_nhs_east_of_england: 6.86 the_nhs_london: 6.13 the_nhs_south_east:6.89 the_nhs_south_west:6.73 the_nhs_wales: 6.85 the_nhs_scotland: 7.37 the_nhs_northern_ireland: 7.68 the_nhs_age_18_24: 6.30 the_nhs_age_25_34:6.17 the_nhs_age_35_44:6.71 the_nhs_age_45_54:6.83 the_nhs_age_55_64:7.31"
+    },
+    {
+        "info_id": 16,
+        "chunk": ":Question 1 Question 1 - Please rank the importance of the following issues facing the UK today. From 1 being the most important to 10 being of lesser importance. Please drag and drop the options into place from 1 to 10.  unemployment_total_participants: 4.74 unemployment_male_participants: 4.85 unemployment_female_participants: 4.64 unemployment_north_east: 5.16 unemployment_north_west: 4.65 unemployment_yorkshire_the_humber:5.31 unemployment_east_Midlands: 4.71 unemployment_west_midlands: 4.29 unemployment_east_of_england: 4.91 unemployment_london: 4.65 unemployment_south_east:4.82 unemployment_south_west:4.62 unemployment_wales: 4.80 unemployment_scotland: 4.58 unemployment_northern_ireland: 4.45 unemployment_age_18_24: 5.43 unemployment_age_25_34:4.99 unemployment_age_35_44:4.90 unemployment_age_45_54:4.53 unemployment_age_55_64:3.88"
+    }
+]
