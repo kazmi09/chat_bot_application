@@ -5,11 +5,24 @@ import json
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from openai import OpenAI
+from fastapi.middleware.cors import CORSMiddleware
+
 
 
 app = FastAPI()
 sentence_encoder_model = SentenceTransformer('BAAI/bge-small-en', device='cpu')
 
+origins = [
+    "https://bounce-insights-chatbot.onrender.com", 
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 def read_json_to_list(filename):
     try:
