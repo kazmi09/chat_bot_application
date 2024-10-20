@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h3 {
+            text-align: center;
+            color: #333;
+        }
+        .disclaimer {
+            color: red;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        input[type="text"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            border: 2px solid #007BFF;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        input[type="text"]:focus {
+            border-color: #0056b3;
+            outline: none;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #response {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #ffffff;
+        }
+    </style>
+
+</head>
+<body>
+    <img width="200px" height="100px"  src="logo.png"/>
+    <h3>Bounce Insights AI ASSISTANT</h3>
+    <label style="color: red;">Disclaimer: This AI tool is only built on Sustainability Research Results..Data for other survery will be publish soon!</label>
+    </br>
+    <input type="text" id="userQuery" placeholder="Ask your question here..." />
+    <button id="submitBtn">Submit</button>
+
+    <div id="response"></div>
+
+    <script>
+        document.getElementById('submitBtn').addEventListener('click', async () => {
+            const query = document.getElementById('userQuery').value;
+            const responseDiv = document.getElementById('response');
+
+            // Clear previous response
+            responseDiv.innerHTML = 'Loading...';
+
+            try {
+                const res = await fetch('http://127.0.0.1:8000/query/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ query: query }),
+                });
+
+                if (!res.ok) {
+                    throw new Error('Network response was not ok');
+                }
+
+                const data = await res.json();
+                responseDiv.innerHTML = data.map(result => `<p><strong>Snippet:</strong> ${result.snippet}<br><strong>Score:</strong> ${result.score}</p>`).join('');
+            } catch (error) {
+                responseDiv.innerHTML = `Error: ${error.message}`;
+            }
+        });
+    </script>
+
+</body>
+</html>

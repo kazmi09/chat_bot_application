@@ -4,10 +4,10 @@ from sentence_transformers import SentenceTransformer, util
 import json
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
+from openai import OpenAI
 
 
 app = FastAPI()
-
 sentence_encoder_model = SentenceTransformer('BAAI/bge-small-en', device='cpu')
 
 
@@ -21,9 +21,11 @@ def read_json_to_list(filename):
         return []     
     
 def create_embeddings(temp_texts,sentence_encoder_model):
-   #with torch.no_grad(): 
-    embeddings_bert_model = sentence_encoder_model.encode(temp_texts, normalize_embeddings=True)
-    return embeddings_bert_model
+    try:
+        embeddings_bert_model = sentence_encoder_model.encode(temp_texts, normalize_embeddings=True)
+        return embeddings_bert_model
+    except Exception as ex:
+        return ex
 
 
 
@@ -43,16 +45,41 @@ class QueryRequest(BaseModel):
     query: str
 
 
+client = OpenAI(
+    # defaults to os.environ.get("OPENAI_API_KEY")
+    api_key="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"
+)
+def chat_gpt(question,context):
+    try:
+        prompt = f"{context}\n\nQuestion: {question}\nAnswer:"
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[{"role": "user", "content": prompt}]
+        )
+        return response.choices[0].message.content.strip()
+    except Exception as ex:
+        return ex
 
 @app.post("/query/")
 async def get_response(query_request: QueryRequest):
-    prefix = "Represent this sentence for searching relevant passages:"
-    query = prefix + query_request.query
-    
-    query_embeddings = create_embeddings(query,sentence_encoder_model)
-    cosine_scores = util.cos_sim(query_embeddings, embeddings)[0].tolist()
-    
-    results = [{'snippet': inp['chunk'], 'score': score} for inp, score in zip(chunks_content_list, cosine_scores)]
-    sorted_results = sorted(results, key=lambda x: x['score'], reverse=True)
-    
-    return sorted_results
+   
+   try:
+        prefix = "Represent this sentence for searching relevant passages:"
+        query = prefix + query_request.query
+        
+        query_embeddings = create_embeddings(query,sentence_encoder_model)
+        cosine_scores = util.cos_sim(query_embeddings, embeddings)[0].tolist()
+        
+        results = [{'snippet': inp['chunk'], 'score': score} for inp, score in zip(chunks_content_list, cosine_scores)]
+        sorted_results = sorted(results, key=lambda x: x['score'], reverse=True)
+        sorted_results_json=json.dumps(sorted_results)
+        system_prompt = (
+        "You are a helpful chatbot.We will provide you a list semantically releated chunks and along with their score and info_id in an object called CONTENT. Please answer the user queries based on the following information:\n"
+        f"CONTENT: {sorted_results_json}\n"
+        )
+
+        response = chat_gpt(query_request.query,system_prompt)
+        return response
+   except Exception as ex:
+        return ex
+
