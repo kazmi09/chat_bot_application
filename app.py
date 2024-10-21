@@ -6,6 +6,8 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from openai import OpenAI
 from fastapi.middleware.cors import CORSMiddleware
+import os
+
 
 
 
