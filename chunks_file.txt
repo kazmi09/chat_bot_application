@@ -62,5 +62,99 @@
     {
         "info_id": 16,
         "chunk": ":Question 1 Question 1 - Please rank the importance of the following issues facing the UK today. From 1 being the most important to 10 being of lesser importance. Please drag and drop the options into place from 1 to 10.  unemployment_total_participants: 4.74 unemployment_male_participants: 4.85 unemployment_female_participants: 4.64 unemployment_north_east: 5.16 unemployment_north_west: 4.65 unemployment_yorkshire_the_humber:5.31 unemployment_east_Midlands: 4.71 unemployment_west_midlands: 4.29 unemployment_east_of_england: 4.91 unemployment_london: 4.65 unemployment_south_east:4.82 unemployment_south_west:4.62 unemployment_wales: 4.80 unemployment_scotland: 4.58 unemployment_northern_ireland: 4.45 unemployment_age_18_24: 5.43 unemployment_age_25_34:4.99 unemployment_age_35_44:4.90 unemployment_age_45_54:4.53 unemployment_age_55_64:3.88"
+    },
+    {
+        "info_id": 17,
+        "chunk": ":Question 2 Question 2 - Please select which, if any, of the following most closely represents your dietary preference: total_participants_question2: 1008 male_participants_question2: 477 female_participants_question2: 532 "
+    },
+    {
+        "info_id": 18,
+        "chunk": ":Question 2 Question 2 - Please select which, if any, of the following most closely represents your dietary preference: vegetarian_total_participants: 90 vegetarian_male_participants: 41 vegetarian_female_participants: 49 vegetarian_north_east: 6 vegetarian_north_west: 8 vegetarian_yorkshire_the_humber:4 vegetarian_east_Midlands: 10 vegetarian_east_Midlands: 10 vegetarian_east_of_england: 9 vegetarian_london: 15 vegetarian_south_east:13 vegetarian_south_west:9 vegetarian_wales: 2 vegetarian_scotland: 4 vegetarian_northern_ireland: 1 vegetarian_age_18_24: 14 vegetarian_age_25_34:20 vegetarian_age_35_44:33 vegetarian_age_45_54:16 vegetarian_age_55_64:7"
+    },
+    {
+        "info_id": 19,
+        "chunk": ":Question 2 Question 2 - Please select which, if any, of the following most closely represents your dietary preference: vegan_total_participants: 44 vegan_male_participants: 18 vegan_female_participants: 26 vegan_north_east: 1 vegan_north_west: 4 vegan_yorkshire_the_humber:3 vegan_east_Midlands: 2 vegan_west_midlands: 3 vegan_east_of_england: 4 vegan_london: 10 vegan_south_east:6 vegan_south_west:6 vegan_wales: 0 vegan_scotland: 5 vegan_northern_ireland: 0 vegan_age_18_24: 9 vegan_age_25_34:19 vegan_age_35_44:9 vegan_age_45_54:5 vegan_age_55_64:2"
+    },
+    {
+        "info_id": 20,
+        "chunk": ":Question 2 Question 2 - Please select which, if any, of the following most closely represents your dietary preference: pescatarian_total_participants: 61 pescatarian_male_participants: 29 vegan_female_participants: 32 pescatarian_north_east: 5 pescatarian_north_west: 8 pescatarian_yorkshire_the_humber:3 pescatarian_east_Midlands: 3 pescatarian_west_midlands: 4 pescatarian_east_of_england: 8 pescatarian_london: 9 pescatarian_south_east:6 pescatarian_south_west:7 pescatarian_wales: 3 pescatarian_scotland: 4 pescatarian_northern_ireland: 1 pescatarian_age_18_24: 11 pescatarian_age_25_34:11 pescatarian_age_35_44:13 pescatarian_age_45_54:11 pescatarian_age_55_64:15"
+    },
+    {
+        "info_id": 21,
+        "chunk": {
+            "Question 2": "Question 2 - Please select which, if any, of the following most closely represents your dietary preference:",
+            "halal_total_participants": 87,
+            "halal_male_participants": 47,
+            "halal_female_participants": 40,
+            "halal_north_east": 0,
+            "halal_north_west": 11,
+            "halal_yorkshire_the_humber": 10,
+            "halal_east_Midlands": 5,
+            "halal_west_midlands": 10,
+            "halal_east_of_england": 12,
+            "halal_london": 19,
+            "halal_south_east": 4,
+            "halal_south_west": 7,
+            "halal_wales": 2,
+            "halal_scotland": 5,
+            "halal_northern_ireland": 2,
+            "halal_age_18_24": 23,
+            "halal_age_25_34": 24,
+            "halal_age_35_44": 29,
+            "halal_age_45_54": 7,
+            "halal_age_55_64": 4
+        }
+    },
+    {
+        "info_id": 22,
+        "chunk": {
+            "Question 2": "Question 2 - Please select which, if any, of the following most closely represents your dietary preference:",
+            "kosher_total_participants": 11,
+            "kosher_male_participants": 6,
+            "kosher_female_participants": 5,
+            "kosher_north_east": 0,
+            "kosher_north_west": 0,
+            "kosher_yorkshire_the_humber": 2,
+            "kosher_east_Midlands": 2,
+            "kosher_west_midlands": 1,
+            "kosher_east_of_england": 1,
+            "kosher_london": 2,
+            "kosher_south_east": 1,
+            "kosher_south_west": 1,
+            "kosher_wales": 1,
+            "kosher_scotland": 0,
+            "kosher_northern_ireland": 0,
+            "kosher_age_18_24": 4,
+            "kosher_age_25_34": 3,
+            "kosher_age_35_44": 0,
+            "kosher_age_45_54": 4,
+            "kosher_age_55_64": 0
+        }
+    },
+    {
+        "info_id": 23,
+        "chunk": {
+            "Question 2": "Question 2 - Please select which, if any, of the following most closely represents your dietary preference:",
+            "none_of_the_above_total_participants": 715,
+            "none_of_the_above_male_participants": 335,
+            "none_of_the_above_female_participants": 380,
+            "none_of_the_above_north_east": 33,
+            "none_of_the_above_north_west": 83,
+            "none_of_the_above_yorkshire_the_humber": 65,
+            "none_of_the_above_east_Midlands": 56,
+            "none_of_the_above_west_midlands": 70,
+            "none_of_the_above_east_of_england": 57,
+            "none_of_the_above_london": 64,
+            "none_of_the_above_south_east": 106,
+            "none_of_the_above_south_west": 63,
+            "none_of_the_above_wales": 33,
+            "none_of_the_above_scotland": 58,
+            "none_of_the_above_northern_ireland": 27,
+            "none_of_the_above_age_18_24": 73,
+            "none_of_the_above_age_25_34": 133,
+            "none_of_the_above_age_35_44": 194,
+            "none_of_the_above_age_45_54": 174,
+            "none_of_the_above_age_55_64": 141
+        }
     }
 ]

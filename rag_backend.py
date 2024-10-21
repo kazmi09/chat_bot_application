@@ -505,6 +505,30 @@ def read_excel_file():
     halal_age_45_54=df.iat[86,22]
     halal_age_55_64=df.iat[86,23]
 
+    halal_chunk={
+    'Question 2':question2,    
+    'halal_total_participants': halal_total_participants,
+    'halal_male_participants':halal_male_participants,
+    'halal_female_participants':halal_female_participants,   
+    'halal_north_east':halal_north_east,
+    'halal_north_west':halal_north_west,
+    'halal_yorkshire_the_humber':halal_yorkshire_the_humber,
+    'halal_east_Midlands':halal_east_Midlands,
+    'halal_west_midlands':halal_west_midlands,
+    'halal_east_of_england':halal_east_of_england,
+    'halal_london':halal_london,
+    'halal_south_east':halal_south_east,
+    'halal_south_west':halal_south_west,
+    'halal_wales':halal_wales,
+    'halal_scotland':halal_scotland,
+    'halal_northern_ireland':halal_northern_ireland,
+    'halal_age_18_24':halal_age_18_24,
+    'halal_age_25_34':halal_age_25_34,
+    'halal_age_35_44':halal_age_35_44,
+    'halal_age_45_54':halal_age_45_54,
+    'halal_age_55_64':halal_age_55_64,
+}
+
     kosher_total_participants=df.iat[88,1]
     kosher_male_participants=df.iat[88,3]
     kosher_female_participants=df.iat[88,4]   
@@ -526,6 +550,31 @@ def read_excel_file():
     kosher_age_45_54=df.iat[88,22]
     kosher_age_55_64=df.iat[88,23]
 
+    chunk_kosher={
+    'Question 2':question2,
+    'kosher_total_participants':kosher_total_participants,
+    'kosher_male_participants':kosher_male_participants,
+    'kosher_female_participants':    kosher_female_participants,
+    'kosher_north_east':    kosher_north_east,
+    'kosher_north_west':    kosher_north_west,
+    'kosher_yorkshire_the_humber':    kosher_yorkshire_the_humber,
+    'kosher_east_Midlands':    kosher_east_Midlands,
+    'kosher_west_midlands':    kosher_west_midlands,
+    'kosher_east_of_england':    kosher_east_of_england,
+    'kosher_london':    kosher_london,
+    'kosher_south_east':    kosher_south_east,
+    'kosher_south_west':    kosher_south_west,
+    'kosher_wales':    kosher_wales,
+    'kosher_scotland':    kosher_scotland,
+    'kosher_northern_ireland':    kosher_northern_ireland,
+    'kosher_age_18_24':    kosher_age_18_24,
+    'kosher_age_25_34':    kosher_age_25_34,
+    'kosher_age_35_44':    kosher_age_35_44,
+    'kosher_age_45_54':    kosher_age_45_54,
+    'kosher_age_55_64':    kosher_age_55_64,
+
+    }
+
     none_of_the_above_total_participants=df.iat[90,1]
     none_of_the_above_male_participants=df.iat[90,3]
     none_of_the_above_female_participants=df.iat[90,4]   
@@ -546,6 +595,31 @@ def read_excel_file():
     none_of_the_above_age_35_44=df.iat[90,21]
     none_of_the_above_age_45_54=df.iat[90,22]
     none_of_the_above_age_55_64=df.iat[90,23]
+
+    chunk_none_of_the_above={
+    'Question 2':question2,
+    'none_of_the_above_total_participants':    none_of_the_above_total_participants,
+    'none_of_the_above_male_participants':    none_of_the_above_male_participants,
+    'none_of_the_above_female_participants':    none_of_the_above_female_participants,
+    'none_of_the_above_north_east':    none_of_the_above_north_east,
+    'none_of_the_above_north_west':    none_of_the_above_north_west,
+    'none_of_the_above_yorkshire_the_humber':    none_of_the_above_yorkshire_the_humber,
+    'none_of_the_above_east_Midlands':    none_of_the_above_east_Midlands,
+    'none_of_the_above_west_midlands':    none_of_the_above_west_midlands,
+    'none_of_the_above_east_of_england':    none_of_the_above_east_of_england,
+    'none_of_the_above_london':    none_of_the_above_london,
+    'none_of_the_above_south_east':    none_of_the_above_south_east,
+    'none_of_the_above_south_west':    none_of_the_above_south_west,
+    'none_of_the_above_wales':    none_of_the_above_wales,
+    'none_of_the_above_scotland':    none_of_the_above_scotland,
+    'none_of_the_above_northern_ireland':    none_of_the_above_northern_ireland,
+    'none_of_the_above_age_18_24':    none_of_the_above_age_18_24,
+    'none_of_the_above_age_25_34':    none_of_the_above_age_25_34,
+    'none_of_the_above_age_35_44':    none_of_the_above_age_35_44,
+    'none_of_the_above_age_45_54':    none_of_the_above_age_45_54,
+    'none_of_the_above_age_55_64':    none_of_the_above_age_55_64,
+
+    }
 
     # Question 3
 
@@ -1640,7 +1714,41 @@ def read_excel_file():
     'info_id':16, 
     'chunk':f":Question 1 {question1} unemployment_total_participants: {unemployment_total_participants} unemployment_male_participants: {unemployment_male_participants} unemployment_female_participants: {unemployment_female_participants} unemployment_north_east: {unemployment_north_east} unemployment_north_west: {unemployment_north_west} unemployment_yorkshire_the_humber:{unemployment_yorkshire_the_humber} unemployment_east_Midlands: {unemployment_east_Midlands} unemployment_west_midlands: {unemployment_west_midlands} unemployment_east_of_england: {unemployment_east_of_england} unemployment_london: {unemployment_london} unemployment_south_east:{unemployment_south_east} unemployment_south_west:{unemployment_south_west} unemployment_wales: {unemployment_wales} unemployment_scotland: {unemployment_scotland} unemployment_northern_ireland: {unemployment_northern_ireland} unemployment_age_18_24: {unemployment_age_18_24} unemployment_age_25_34:{unemployment_age_25_34} unemployment_age_35_44:{unemployment_age_35_44} unemployment_age_45_54:{unemployment_age_45_54} unemployment_age_55_64:{unemployment_age_55_64}"
       
+    },
+
+    {
+    'info_id':17, 
+    'chunk':f":Question 2 {question2} total_participants_question2: {total_participants_question2} male_participants_question2: {male_participants_question2} female_participants_question2: {female_participants_question2} "
+      
+    },
+    {
+    'info_id':18, 
+    'chunk':f":Question 2 {question2} vegetarian_total_participants: {vegetarian_total_participants} vegetarian_male_participants: {vegetarian_male_participants} vegetarian_female_participants: {vegetarian_female_participants} vegetarian_north_east: {vegetarian_north_east} vegetarian_north_west: {vegetarian_north_west} vegetarian_yorkshire_the_humber:{vegetarian_yorkshire_the_humber} vegetarian_east_Midlands: {vegetarian_east_Midlands} vegetarian_east_Midlands: {vegetarian_east_Midlands} vegetarian_east_of_england: {vegetarian_east_of_england} vegetarian_london: {vegetarian_london} vegetarian_south_east:{vegetarian_south_east} vegetarian_south_west:{vegetarian_south_west} vegetarian_wales: {vegetarian_wales} vegetarian_scotland: {vegetarian_scotland} vegetarian_northern_ireland: {vegetarian_northern_ireland} vegetarian_age_18_24: {vegetarian_age_18_24} vegetarian_age_25_34:{vegetarian_age_25_34} vegetarian_age_35_44:{vegetarian_age_35_44} vegetarian_age_45_54:{vegetarian_age_45_54} vegetarian_age_55_64:{vegetarian_age_55_64}"
+      
+    },
+    {
+    'info_id':19,   
+    'chunk':f":Question 2 {question2} vegan_total_participants: {vegan_total_participants} vegan_male_participants: {vegan_male_participants} vegan_female_participants: {vegan_female_participants} vegan_north_east: {vegan_north_east} vegan_north_west: {vegan_north_west} vegan_yorkshire_the_humber:{vegan_yorkshire_the_humber} vegan_east_Midlands: {vegan_east_Midlands} vegan_west_midlands: {vegan_west_midlands} vegan_east_of_england: {vegan_east_of_england} vegan_london: {vegan_london} vegan_south_east:{vegan_south_east} vegan_south_west:{vegan_south_west} vegan_wales: {vegan_wales} vegan_scotland: {vegan_scotland} vegan_northern_ireland: {vegan_northern_ireland} vegan_age_18_24: {vegan_age_18_24} vegan_age_25_34:{vegan_age_25_34} vegan_age_35_44:{vegan_age_35_44} vegan_age_45_54:{vegan_age_45_54} vegan_age_55_64:{vegan_age_55_64}"
+      
+    },
+    {
+    'info_id':20,   
+    'chunk':f":Question 2 {question2} pescatarian_total_participants: {pescatarian_total_participants} pescatarian_male_participants: {pescatarian_male_participants} vegan_female_participants: {pescatarian_female_participants} pescatarian_north_east: {pescatarian_north_east} pescatarian_north_west: {pescatarian_north_west} pescatarian_yorkshire_the_humber:{pescatarian_yorkshire_the_humber} pescatarian_east_Midlands: {pescatarian_east_Midlands} pescatarian_west_midlands: {pescatarian_west_midlands} pescatarian_east_of_england: {pescatarian_east_of_england} pescatarian_london: {pescatarian_london} pescatarian_south_east:{pescatarian_south_east} pescatarian_south_west:{pescatarian_south_west} pescatarian_wales: {pescatarian_wales} pescatarian_scotland: {pescatarian_scotland} pescatarian_northern_ireland: {pescatarian_northern_ireland} pescatarian_age_18_24: {pescatarian_age_18_24} pescatarian_age_25_34:{pescatarian_age_25_34} pescatarian_age_35_44:{pescatarian_age_35_44} pescatarian_age_45_54:{pescatarian_age_45_54} pescatarian_age_55_64:{pescatarian_age_55_64}"
+      
+    },
+    {
+    'info_id':21,   
+    'chunk':halal_chunk   
+    },
+    {
+    'info_id':22,   
+    'chunk':chunk_kosher   
+    },
+    {
+    'info_id':23,   
+    'chunk':chunk_none_of_the_above   
     }
+    
     ]
 
 
