@@ -59,8 +59,7 @@ class QueryRequest(BaseModel):
 
 
 client = OpenAI(
-    # defaults to os.environ.get("OPENAI_API_KEY")
-    api_key="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"
+    api_key = os.getenv("OPENAI_API_KEY")
 )
 def chat_gpt(question,context):
     try:
